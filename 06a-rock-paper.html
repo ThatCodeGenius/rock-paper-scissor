@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IF SHORTCUTS EXERCISE</title>
+</head>
+
+
+<body>
+  <button onClick="greet()">Click</button>
+
+  <script>
+    function greet() {
+      let hour = 15;
+      let name = 'Benjamin';
+
+      if (hour > 5 && hour <= 12) {
+        console.log(`Good morning ${name}`);
+      }
+      else if (hour >= 6 && hour <= 17) {
+        console.log(`Good afternoon  ${name}`)
+      } else {
+        console.log(`Goodnight  ${name}`)
+      }
+
+      let age = 6;
+      let isHoliday = true;
+
+      if ((age <= 6 || age >= 65) && (!isHoliday)) {
+
+        console.log('You are eligible for discount')
+      }
+
+      else {
+        console.log(' You can"t receive discount')
+      }
+
+    };
+
+
+
+
+  </script>
+
+
+  </script>
+</body>
+
+</html>

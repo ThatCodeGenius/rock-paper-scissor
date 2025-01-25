@@ -1,0 +1,58 @@
+
+body{
+background-color: black;
+color: white;
+font-family: sans-serif, Arial, Helvetica, sans-serif;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.rock-paper-scissors{
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#button-container{
+display: flex;
+}
+
+.button {
+  background-color: transparent;
+  margin-left: 7px;
+  border-radius: 210px;
+  border:none ;
+}
+
+.choice-image {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 210px;
+}
+
+.game-result{
+font-size: 40px;
+font-weight:bold
+}
+
+.move-icon{
+  height: 60px;
+}
+
+.game-score{
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+.reset-button{
+  background: radial-gradient(circle, #ff5733, #33aaff);
+  color:aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 10px 25px;
+}

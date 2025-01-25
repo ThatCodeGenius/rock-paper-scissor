@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROCk PAPER SCISSORS GAME</title>
+  <link rel="stylesheet" href="styles/06-rock-paper.css">
+  <link rel="icon"
+    href="https://media.istockphoto.com/id/839977330/vector/rock-paper-scissors-icons.jpg?s=612x612&w=0&k=20&c=zw4h9XhVAPxHYVY6eOzYHulKyLjq0OWBERlWRwyYMhI=">
+</head>
+
+<body>
+  <p class="rock-paper-scissors">Rock Paper Scissors</p>
+
+  <div id="button-container">
+    <button class="rock-btn button js-Player-Button" data-player-move="Rock">
+      <img class="choice-image  js-choice-image" src="images/icons8-Rock.png" alt="Rock">
+    </button>
+
+    <button class="paper-btn button js-Player-Button" data-player-move="Paper">
+      <img class="choice-image js-choice-image" src="images/icons8-Paper.png" alt="Paper">
+    </button>
+
+    <button class="scissors-btn button js-Player-Button" data-player-move="Scissors">
+      <img class="choice-image js-choice-image" src="images/icons8-Scissors.png" alt="Scissors">
+    </button>
+  </div>
+
+  <p class="game-result js-game-result"></p>
+
+
+  <div class="playerDashboard  js-playerDashboard"></div>
+
+
+  <div class="game-score js-game-Score"></div>
+  <button class="reset-button js-Reset-Button ">Reset Game</button>
+
+
+  <script src="script/06-rock-paper.js"></script>
+</body>
+
+</html>

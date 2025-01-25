@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEAD AND TAIL ASSIGNMENT</title>
+</head>
+
+<body>
+
+
+  <script>
+
+    let randomSelection = () => {
+      let randomNumber = Math.random();
+      let result;
+
+      if (randomNumber <= 0.5) {
+        result = 'Head';
+      } else {
+        result = 'Tail';
+      };
+      return result;
+    }
+
+    const result = randomSelection();
+
+    let guess = result;
+
+    function guessResult() {
+      /*The TENARY OPERATOR as used below is a shortcut to IF STATEMENT. The two different codes will outpout same result*/
+      guess === 'Head' ? console.log('You win') : console.log('You lose')
+
+      // if (guess === 'Head') {
+      //   console.log('You win');
+      // } else {
+      //   console.log('You lose')
+      // }
+    }
+    guessResult();
+
+  </script>
+</body>
+
+</html>
